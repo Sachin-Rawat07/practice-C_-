@@ -7,6 +7,7 @@ int main(){
     int arr[n];
     for (int i =0;i<n;i++){
         cin>>arr[i];
+        
     }
     int sum=0;
     for (int i =0;i<n;i++){
@@ -14,5 +15,6 @@ int main(){
 
     }
     cout<<"sum of elements in the given array is "<<sum;
+    cout<<"executed";
 return 0 ;
 }
